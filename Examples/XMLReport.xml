@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestReport>
+  <Header>
+    <SerialNumber>12345</SerialNumber>
+    <PartNumber>Part1</PartNumber>
+    <Revision>1.0</Revision>
+    <StartDate>2017-04-20 12:01:30</StartDate>
+    <ExecutionTime>20.5</ExecutionTime>
+    <OperationTypeCode>50</OperationTypeCode>
+    <Operator>Ragnar</Operator>
+  </Header>
+  <Sequence Name="Startup">
+    <NumericTest Name="Test1" Measure="4.56" LowLim="4" HighLim="5" Unit="V"/>
+    <NumericTest Name="Test2" Measure="1000.766" LowLim="900" HighLim="1100" Unit="Ohm"/>
+  </Sequence>
+  <Sequence Name="Main">
+    <NumericTest Name="Test1" Measure="555.7" LowLim="500" HighLim="600" Unit="V"/>
+    <NumericTest Name="Test2" Measure="300.88" LowLim="310" HighLim="400" Unit="A"/>
+    <StringTest Name="Software version" Measure="3.4" Limit="3.4"></StringTest>
+    <PassFailTest Name="LED ok" Measure="True"></PassFailTest>
+  </Sequence>
+</TestReport>
