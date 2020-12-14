@@ -29,6 +29,8 @@ The values are hardcoded in the test, so you will need to change the values to r
 * In TestConverter, fill in the path to the file you want to test the converter with. There are example files in the Examples folder.
 * Run SetupClient once, then you can run TestConverter as many times as you want.
 
+Note that the start date in the example files are going to be old, so in WATS you will have to set the From Date filter to see the report in Test Reports.
+
 ## License
 
 This project is licensed under the [LGPLv3](COPYING.LESSER) which is an extention of the [GPLv3](COPYING).
