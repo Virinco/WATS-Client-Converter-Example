@@ -31,6 +31,13 @@ The values are hardcoded in the test, so you will need to change the values to r
 
 Note that the start date in the example files are going to be old, so in WATS you will have to set the From Date filter to see the report in Test Reports.
 
+## Contact
+
+* Issues with the converter or suggestions for improvements can be submitted as an issue here on GitHub.
+* Ask questions about WATS in the [WATS Community Help](https://virinco.zendesk.com/hc/en-us/community/topics/200229613)
+* Suggestions for the WATS Client itself or WATS in general can be submitted to the [WATS Idea Exchange](https://virinco.zendesk.com/hc/en-us/community/topics/200229623)
+* Sensitive installation issues or other sensitive questions can be sent to [support@virinco.com](mailto://support@virinco.com)
+
 ## License
 
 This project is licensed under the [LGPLv3](COPYING.LESSER) which is an extention of the [GPLv3](COPYING).
