@@ -49,7 +49,7 @@ namespace XMLConverter
                                 AddTest(CompOperatorType.IGNORECASE, t.Attribute("Measure").Value, t.Attribute("Limit").Value);
                         else if (t.Name == "PassFailTest")
                             s.AddPassFailStep(t.Attribute("Name").Value).
-                                AddTest(t.Attribute("Measure").Value.ToLower() == "True" ? true : false);
+                                AddTest(t.Attribute("Measure").Value.ToLower() == "true" ? true : false);
                     }
                 }
                 return uut;
